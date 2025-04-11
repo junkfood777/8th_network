@@ -1,6 +1,6 @@
 [submodule "core"]
 	path = core
-	url = 
+	url = https://github.com/junkfood777/core
 [submodule "api-gateway"]
 	path = api-gateway
-	url = 
+	url = https://github.com/junkfood777/api-gateway
