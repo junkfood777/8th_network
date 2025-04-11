@@ -5,9 +5,9 @@ services:
     image: postgres:13
     container_name: postgres_db
     environment:
-      POSTGRES_DB: NoteApiDb
-      POSTGRES_USER: noteUser
-      POSTGRES_PASSWORD: notePassword
+      POSTGRES_DB: apiDb
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
     volumes:
       - ./db/init.sql:/docker-entrypoint-initdb.d/init.sql
     ports:
@@ -22,8 +22,8 @@ services:
       - db
     environment:
       SPRING_DATASOURCE_URL: jdbc:postgresql://db:5432/NoteApiDb
-      SPRING_DATASOURCE_USERNAME: noteUser
-      SPRING_DATASOURCE_PASSWORD: notePassword
+      SPRING_DATASOURCE_USERNAME: user
+      SPRING_DATASOURCE_PASSWORD: password
     ports:
       - "8080:8080"
     networks:
