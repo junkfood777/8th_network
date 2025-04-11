@@ -1,0 +1,6 @@
+[submodule "core"]
+	path = core
+	url = 
+[submodule "api-gateway"]
+	path = api-gateway
+	url = 
