@@ -1,1 +1,1 @@
-# 8th_network
+# 8th_network - Solutions for network tasks - Gradusov 421
